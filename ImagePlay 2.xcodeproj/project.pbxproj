@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		605B23301EAF49720034CA17 /* dark_hand_smoke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 605B232B1EAF49720034CA17 /* dark_hand_smoke.jpg */; };
+		605B23311EAF49720034CA17 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 605B232C1EAF49720034CA17 /* default.png */; };
+		605B23321EAF49720034CA17 /* quote.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 605B232D1EAF49720034CA17 /* quote.jpg */; };
+		605B23331EAF49720034CA17 /* simple-life-quote.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 605B232E1EAF49720034CA17 /* simple-life-quote.jpg */; };
+		605B23341EAF49720034CA17 /* weapon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 605B232F1EAF49720034CA17 /* weapon.jpg */; };
 		6067B0341EAF48B800CBE241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6067B0331EAF48B800CBE241 /* main.m */; };
 		6067B0371EAF48B800CBE241 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6067B0361EAF48B800CBE241 /* AppDelegate.m */; };
 		6067B03A1EAF48B800CBE241 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6067B0391EAF48B800CBE241 /* ViewController.m */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		605B232B1EAF49720034CA17 /* dark_hand_smoke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dark_hand_smoke.jpg; sourceTree = "<group>"; };
+		605B232C1EAF49720034CA17 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		605B232D1EAF49720034CA17 /* quote.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quote.jpg; sourceTree = "<group>"; };
+		605B232E1EAF49720034CA17 /* simple-life-quote.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "simple-life-quote.jpg"; sourceTree = "<group>"; };
+		605B232F1EAF49720034CA17 /* weapon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weapon.jpg; sourceTree = "<group>"; };
 		6067B02F1EAF48B800CBE241 /* ImagePlay 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImagePlay 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6067B0331EAF48B800CBE241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6067B0351EAF48B800CBE241 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +49,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		605B23351EAF49790034CA17 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				605B232B1EAF49720034CA17 /* dark_hand_smoke.jpg */,
+				605B232C1EAF49720034CA17 /* default.png */,
+				605B232D1EAF49720034CA17 /* quote.jpg */,
+				605B232E1EAF49720034CA17 /* simple-life-quote.jpg */,
+				605B232F1EAF49720034CA17 /* weapon.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		6067B0261EAF48B800CBE241 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +85,7 @@
 				6067B0381EAF48B800CBE241 /* ViewController.h */,
 				6067B0391EAF48B800CBE241 /* ViewController.m */,
 				6067B03B1EAF48B800CBE241 /* Main.storyboard */,
+				605B23351EAF49790034CA17 /* Images */,
 				6067B03E1EAF48B800CBE241 /* Assets.xcassets */,
 				6067B0401EAF48B800CBE241 /* LaunchScreen.storyboard */,
 				6067B0431EAF48B800CBE241 /* Info.plist */,
@@ -138,9 +161,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				605B23331EAF49720034CA17 /* simple-life-quote.jpg in Resources */,
+				605B23301EAF49720034CA17 /* dark_hand_smoke.jpg in Resources */,
 				6067B0421EAF48B800CBE241 /* LaunchScreen.storyboard in Resources */,
+				605B23341EAF49720034CA17 /* weapon.jpg in Resources */,
+				605B23321EAF49720034CA17 /* quote.jpg in Resources */,
 				6067B03F1EAF48B800CBE241 /* Assets.xcassets in Resources */,
 				6067B03D1EAF48B800CBE241 /* Main.storyboard in Resources */,
+				605B23311EAF49720034CA17 /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +342,7 @@
 				6067B0481EAF48B800CBE241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
